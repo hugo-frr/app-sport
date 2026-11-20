@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "App Sport",
+    "slug": "app-sport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "fr.appsport.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4353FF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "fr.appsport.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "scheme": "appsport",
+    "backgroundColor": "#F2F2F7"
+  }
+}
